@@ -1,0 +1,46 @@
+span {
+  display: block;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding-bottom: 8px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin: 5px;
+  text-align: center;
+}
+span:hover {
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  display: inline-block;
+  background-color: lightcoral;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div {
+  display: inline-flex;
+}
+#insidetext {
+  display: inline;
+  padding: 2px;
+  margin: 0;
+}
+#weirdspan {
+  display: inline;
+  background-color: transparent;
+  border: px solid black;
+  margin: 0;
+  padding: 100px;
+  border-radius: 0;
+}
